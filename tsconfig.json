@@ -1,0 +1,41 @@
+
+{
+    "compilerOptions":
+    {
+        "target": "es5",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "inlineSourceMap": true,
+        "inlineSources": true,
+        "declaration": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strictNullChecks": false,
+        "rootDir": "src",
+        "outDir": "dist/es5",
+        "lib":
+        [
+            "es2016",
+            "dom"
+        ],
+        "plugins":
+        [
+            {
+                "name": "@angular/language-service"
+            }
+        ]
+    },
+    "exclude":
+    [
+        "node_modules",
+        "dist"
+    ],
+    "angularCompilerOptions":
+    {
+        "target": "package"
+    }
+}
