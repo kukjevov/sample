@@ -1,34 +1,32 @@
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NgSelectValuePipe } from '../pipes/ngSelectValue.pipe';
-import { OptionComponent, OptGroupComponent } from '../components/option';
+import { OptGroupComponent } from '../components/option/optgroup.component';
+import { OptionComponent } from '../components/option/option.component';
 /**
  * Module for select and its options
  */
-let NgSelectModule = class NgSelectModule {
-};
-NgSelectModule = __decorate([
-    NgModule({
-        imports: [
-            CommonModule
-        ],
-        declarations: [
-            OptionComponent,
-            OptGroupComponent,
-            NgSelectValuePipe
-        ],
-        exports: [
-            OptionComponent,
-            OptGroupComponent,
-            NgSelectValuePipe
-        ]
-    })
-], NgSelectModule);
-export { NgSelectModule };
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmdTZWxlY3QubW9kdWxlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vc3JjL21vZHVsZXMvbmdTZWxlY3QubW9kdWxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBLE9BQU8sRUFBQyxRQUFRLEVBQUMsTUFBTSxlQUFlLENBQUM7QUFDdkMsT0FBTyxFQUFDLFlBQVksRUFBQyxNQUFNLGlCQUFpQixDQUFDO0FBRTdDLE9BQU8sRUFBQyxpQkFBaUIsRUFBQyxNQUFNLDZCQUE2QixDQUFDO0FBQzlELE9BQU8sRUFBQyxlQUFlLEVBQUUsaUJBQWlCLEVBQUMsTUFBTSxzQkFBc0IsQ0FBQztBQUV4RTs7R0FFRztBQW9CSCxJQUFhLGNBQWMsR0FBM0IsTUFBYSxjQUFjO0NBRTFCLENBQUE7QUFGWSxjQUFjO0lBbkIxQixRQUFRLENBQ1Q7UUFDSSxPQUFPLEVBQ1A7WUFDSSxZQUFZO1NBQ2Y7UUFDRCxZQUFZLEVBQ1o7WUFDSSxlQUFlO1lBQ2YsaUJBQWlCO1lBQ2pCLGlCQUFpQjtTQUNwQjtRQUNELE9BQU8sRUFDUDtZQUNJLGVBQWU7WUFDZixpQkFBaUI7WUFDakIsaUJBQWlCO1NBQ3BCO0tBQ0osQ0FBQztHQUNXLGNBQWMsQ0FFMUI7U0FGWSxjQUFjIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtOZ01vZHVsZX0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XHJcbmltcG9ydCB7Q29tbW9uTW9kdWxlfSBmcm9tICdAYW5ndWxhci9jb21tb24nO1xyXG5cclxuaW1wb3J0IHtOZ1NlbGVjdFZhbHVlUGlwZX0gZnJvbSAnLi4vcGlwZXMvbmdTZWxlY3RWYWx1ZS5waXBlJztcclxuaW1wb3J0IHtPcHRpb25Db21wb25lbnQsIE9wdEdyb3VwQ29tcG9uZW50fSBmcm9tICcuLi9jb21wb25lbnRzL29wdGlvbic7XHJcblxyXG4vKipcclxuICogTW9kdWxlIGZvciBzZWxlY3QgYW5kIGl0cyBvcHRpb25zXHJcbiAqL1xyXG5ATmdNb2R1bGUoXHJcbntcclxuICAgIGltcG9ydHM6XHJcbiAgICBbXHJcbiAgICAgICAgQ29tbW9uTW9kdWxlXHJcbiAgICBdLFxyXG4gICAgZGVjbGFyYXRpb25zOlxyXG4gICAgW1xyXG4gICAgICAgIE9wdGlvbkNvbXBvbmVudCxcclxuICAgICAgICBPcHRHcm91cENvbXBvbmVudCxcclxuICAgICAgICBOZ1NlbGVjdFZhbHVlUGlwZVxyXG4gICAgXSxcclxuICAgIGV4cG9ydHM6XHJcbiAgICBbXHJcbiAgICAgICAgT3B0aW9uQ29tcG9uZW50LFxyXG4gICAgICAgIE9wdEdyb3VwQ29tcG9uZW50LFxyXG4gICAgICAgIE5nU2VsZWN0VmFsdWVQaXBlXHJcbiAgICBdXHJcbn0pXHJcbmV4cG9ydCBjbGFzcyBOZ1NlbGVjdE1vZHVsZVxyXG57XHJcbn0iXX0=
+export class NgSelectModule {
+}
+NgSelectModule.decorators = [
+    { type: NgModule, args: [{
+                imports: [
+                    CommonModule
+                ],
+                declarations: [
+                    OptionComponent,
+                    OptGroupComponent,
+                    NgSelectValuePipe
+                ],
+                exports: [
+                    OptionComponent,
+                    OptGroupComponent,
+                    NgSelectValuePipe
+                ]
+            },] },
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmdTZWxlY3QubW9kdWxlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vc3JjL21vZHVsZXMvbmdTZWxlY3QubW9kdWxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7QUFBQSxPQUFPLEVBQUMsUUFBUSxFQUFDLE1BQU0sZUFBZSxDQUFDO0FBQ3ZDLE9BQU8sRUFBQyxZQUFZLEVBQUMsTUFBTSxpQkFBaUIsQ0FBQztBQUU3QyxPQUFPLEVBQUMsaUJBQWlCLEVBQUMsTUFBTSw2QkFBNkIsQ0FBQztBQUM5RCxPQUFPLEVBQUMsaUJBQWlCLEVBQUMsTUFBTSx5Q0FBeUMsQ0FBQztBQUMxRSxPQUFPLEVBQUMsZUFBZSxFQUFDLE1BQU0sdUNBQXVDLENBQUM7Ozs7QUF3QnRFLE1BQU0sT0FBTyxjQUFjOzs7WUFuQjFCLFFBQVEsU0FDVDtnQkFDSSxPQUFPLEVBQ1A7b0JBQ0ksWUFBWTtpQkFDZjtnQkFDRCxZQUFZLEVBQ1o7b0JBQ0ksZUFBZTtvQkFDZixpQkFBaUI7b0JBQ2pCLGlCQUFpQjtpQkFDcEI7Z0JBQ0QsT0FBTyxFQUNQO29CQUNJLGVBQWU7b0JBQ2YsaUJBQWlCO29CQUNqQixpQkFBaUI7aUJBQ3BCO2FBQ0oiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge05nTW9kdWxlfSBmcm9tICdAYW5ndWxhci9jb3JlJztcclxuaW1wb3J0IHtDb21tb25Nb2R1bGV9IGZyb20gJ0Bhbmd1bGFyL2NvbW1vbic7XHJcblxyXG5pbXBvcnQge05nU2VsZWN0VmFsdWVQaXBlfSBmcm9tICcuLi9waXBlcy9uZ1NlbGVjdFZhbHVlLnBpcGUnO1xyXG5pbXBvcnQge09wdEdyb3VwQ29tcG9uZW50fSBmcm9tICcuLi9jb21wb25lbnRzL29wdGlvbi9vcHRncm91cC5jb21wb25lbnQnO1xyXG5pbXBvcnQge09wdGlvbkNvbXBvbmVudH0gZnJvbSAnLi4vY29tcG9uZW50cy9vcHRpb24vb3B0aW9uLmNvbXBvbmVudCc7XHJcblxyXG4vKipcclxuICogTW9kdWxlIGZvciBzZWxlY3QgYW5kIGl0cyBvcHRpb25zXHJcbiAqL1xyXG5ATmdNb2R1bGUoXHJcbntcclxuICAgIGltcG9ydHM6XHJcbiAgICBbXHJcbiAgICAgICAgQ29tbW9uTW9kdWxlXHJcbiAgICBdLFxyXG4gICAgZGVjbGFyYXRpb25zOlxyXG4gICAgW1xyXG4gICAgICAgIE9wdGlvbkNvbXBvbmVudCxcclxuICAgICAgICBPcHRHcm91cENvbXBvbmVudCxcclxuICAgICAgICBOZ1NlbGVjdFZhbHVlUGlwZVxyXG4gICAgXSxcclxuICAgIGV4cG9ydHM6XHJcbiAgICBbXHJcbiAgICAgICAgT3B0aW9uQ29tcG9uZW50LFxyXG4gICAgICAgIE9wdEdyb3VwQ29tcG9uZW50LFxyXG4gICAgICAgIE5nU2VsZWN0VmFsdWVQaXBlXHJcbiAgICBdXHJcbn0pXHJcbmV4cG9ydCBjbGFzcyBOZ1NlbGVjdE1vZHVsZVxyXG57XHJcbn0iXX0=

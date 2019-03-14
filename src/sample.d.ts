@@ -1,3 +1,3 @@
-export { NgSelectOptGroup, NgSelectOption, OptGroupComponent, OptionComponent } from './components/option';
-export { NgSelectModule } from './modules/ngSelect.module';
-export { NgSelectValuePipe } from './pipes/ngSelectValue.pipe';
+export * from './modules/ngSelect.module';
+export * from './components/option';
+export * from './pipes/ngSelectValue.pipe';

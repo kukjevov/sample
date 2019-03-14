@@ -1,21 +1,15 @@
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
 import { Component, ChangeDetectionStrategy, Input } from "@angular/core";
 /**
  * Component used for options in select component
+ * @template TValue
  */
-let OptionComponent = class OptionComponent {
-    /**
-     * Component used for options in select component
-     */
+export class OptionComponent {
     constructor() {
+        //######################### public properties - template bindings #########################
         //######################### public properties - template bindings #########################
         /**
          * Indication whether is item active
@@ -31,21 +25,43 @@ let OptionComponent = class OptionComponent {
          */
         this.group = null;
     }
+}
+OptionComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'ng-select option',
+                template: '',
+                changeDetection: ChangeDetectionStrategy.OnPush
+            },] },
+];
+OptionComponent.propDecorators = {
+    value: [{ type: Input }],
+    text: [{ type: Input }]
 };
-__decorate([
-    Input(),
-    __metadata("design:type", Object)
-], OptionComponent.prototype, "value", void 0);
-__decorate([
-    Input(),
-    __metadata("design:type", String)
-], OptionComponent.prototype, "text", void 0);
-OptionComponent = __decorate([
-    Component({
-        selector: 'ng-select option',
-        template: '',
-        changeDetection: ChangeDetectionStrategy.OnPush
-    })
-], OptionComponent);
-export { OptionComponent };
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoib3B0aW9uLmNvbXBvbmVudC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL3NyYy9jb21wb25lbnRzL29wdGlvbi9vcHRpb24uY29tcG9uZW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFBLE9BQU8sRUFBQyxTQUFTLEVBQUUsdUJBQXVCLEVBQUUsS0FBSyxFQUFDLE1BQU0sZUFBZSxDQUFDO0FBSXhFOztHQUVHO0FBT0gsSUFBYSxlQUFlLEdBQTVCLE1BQWEsZUFBZTtJQVQ1Qjs7T0FFRztJQUNIO1FBUUksMkZBQTJGO1FBRTNGOztXQUVHO1FBQ0ksV0FBTSxHQUFZLEtBQUssQ0FBQztRQUUvQjs7V0FFRztRQUNJLGFBQVEsR0FBWSxLQUFLLENBQUM7UUFnQmpDLHVFQUF1RTtRQUV2RTs7V0FFRztRQUNJLFVBQUssR0FBVyxJQUFJLENBQUM7SUFDaEMsQ0FBQztDQUFBLENBQUE7QUFkRztJQURDLEtBQUssRUFBRTs7OENBQ2E7QUFNckI7SUFEQyxLQUFLLEVBQUU7OzZDQUNZO0FBMUJYLGVBQWU7SUFOM0IsU0FBUyxDQUNWO1FBQ0ksUUFBUSxFQUFFLGtCQUFrQjtRQUM1QixRQUFRLEVBQUUsRUFBRTtRQUNaLGVBQWUsRUFBRSx1QkFBdUIsQ0FBQyxNQUFNO0tBQ2xELENBQUM7R0FDVyxlQUFlLENBa0MzQjtTQWxDWSxlQUFlIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtDb21wb25lbnQsIENoYW5nZURldGVjdGlvblN0cmF0ZWd5LCBJbnB1dH0gZnJvbSBcIkBhbmd1bGFyL2NvcmVcIjtcclxuXHJcbmltcG9ydCB7TmdTZWxlY3RPcHRpb259IGZyb20gXCIuL29wdGlvbi5pbnRlcmZhY2VcIjtcclxuXHJcbi8qKlxyXG4gKiBDb21wb25lbnQgdXNlZCBmb3Igb3B0aW9ucyBpbiBzZWxlY3QgY29tcG9uZW50XHJcbiAqL1xyXG5AQ29tcG9uZW50KFxyXG57XHJcbiAgICBzZWxlY3RvcjogJ25nLXNlbGVjdCBvcHRpb24nLFxyXG4gICAgdGVtcGxhdGU6ICcnLFxyXG4gICAgY2hhbmdlRGV0ZWN0aW9uOiBDaGFuZ2VEZXRlY3Rpb25TdHJhdGVneS5PblB1c2hcclxufSlcclxuZXhwb3J0IGNsYXNzIE9wdGlvbkNvbXBvbmVudDxUVmFsdWU+IGltcGxlbWVudHMgTmdTZWxlY3RPcHRpb248VFZhbHVlPlxyXG57XHJcbiAgICAvLyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgcHVibGljIHByb3BlcnRpZXMgLSB0ZW1wbGF0ZSBiaW5kaW5ncyAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjXHJcblxyXG4gICAgLyoqXHJcbiAgICAgKiBJbmRpY2F0aW9uIHdoZXRoZXIgaXMgaXRlbSBhY3RpdmVcclxuICAgICAqL1xyXG4gICAgcHVibGljIGFjdGl2ZTogYm9vbGVhbiA9IGZhbHNlO1xyXG5cclxuICAgIC8qKlxyXG4gICAgICogSW5kaWNhdGlvbiB3aGV0aGVyIHRoaXMgb3B0aW9uIGlzIHNlbGVjdGVkXHJcbiAgICAgKi9cclxuICAgIHB1YmxpYyBzZWxlY3RlZDogYm9vbGVhbiA9IGZhbHNlO1xyXG5cclxuICAgIC8vIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyBwdWJsaWMgcHJvcGVydGllcyAtIGlucHV0cyAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjXHJcblxyXG4gICAgLyoqXHJcbiAgICAgKiBWYWx1ZSB0aGF0IHdpbGwgYmUgdXNlZCBpZiB0aGlzIG9wdGlvbiB3aWxsIGJlIHNlbGVjdGVkXHJcbiAgICAgKi9cclxuICAgIEBJbnB1dCgpXHJcbiAgICBwdWJsaWMgdmFsdWU6IFRWYWx1ZTtcclxuXHJcbiAgICAvKipcclxuICAgICAqIFRleHQgdGhhdCBpcyBkaXNwbGF5ZWQgaWYgdGhpcyB2YWx1ZSBpcyBzZWxlY3RlZFxyXG4gICAgICovXHJcbiAgICBASW5wdXQoKVxyXG4gICAgcHVibGljIHRleHQ6IHN0cmluZztcclxuICAgIFxyXG4gICAgLy8jIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIHB1YmxpYyBwcm9wZXJ0aWVzICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyNcclxuXHJcbiAgICAvKipcclxuICAgICAqIElmIHNwZWNpZmllZCB0aGlzIG9wdGlvbiB3aWxsIGJlIGRpc3BsYXllZCBpbiBncm91cFxyXG4gICAgICovXHJcbiAgICBwdWJsaWMgZ3JvdXA6IHN0cmluZyA9IG51bGw7XHJcbn0iXX0=
+if (false) {
+    /**
+     * Indication whether is item active
+     * @type {?}
+     */
+    OptionComponent.prototype.active;
+    /**
+     * Indication whether this option is selected
+     * @type {?}
+     */
+    OptionComponent.prototype.selected;
+    /**
+     * Value that will be used if this option will be selected
+     * @type {?}
+     */
+    OptionComponent.prototype.value;
+    /**
+     * Text that is displayed if this value is selected
+     * @type {?}
+     */
+    OptionComponent.prototype.text;
+    /**
+     * If specified this option will be displayed in group
+     * @type {?}
+     */
+    OptionComponent.prototype.group;
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoib3B0aW9uLmNvbXBvbmVudC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL3NyYy9jb21wb25lbnRzL29wdGlvbi9vcHRpb24uY29tcG9uZW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7QUFBQSxPQUFPLEVBQUMsU0FBUyxFQUFFLHVCQUF1QixFQUFFLEtBQUssRUFBQyxNQUFNLGVBQWUsQ0FBQzs7Ozs7QUFheEUsTUFBTSxPQUFPLGVBQWU7SUFONUI7UUFRSSwyRkFBMkY7Ozs7O1FBS3BGLFdBQU0sR0FBWSxLQUFLLENBQUM7Ozs7UUFLeEIsYUFBUSxHQUFZLEtBQUssQ0FBQzs7Ozs7UUFxQjFCLFVBQUssR0FBVyxJQUFJLENBQUM7SUFDaEMsQ0FBQzs7O1lBeENBLFNBQVMsU0FDVjtnQkFDSSxRQUFRLEVBQUUsa0JBQWtCO2dCQUM1QixRQUFRLEVBQUUsRUFBRTtnQkFDWixlQUFlLEVBQUUsdUJBQXVCLENBQUMsTUFBTTthQUNsRDs7O29CQW9CSSxLQUFLO21CQU1MLEtBQUs7Ozs7Ozs7SUFsQk4saUNBQStCOzs7OztJQUsvQixtQ0FBaUM7Ozs7O0lBT2pDLGdDQUNxQjs7Ozs7SUFLckIsK0JBQ29COzs7OztJQU9wQixnQ0FBNEIiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge0NvbXBvbmVudCwgQ2hhbmdlRGV0ZWN0aW9uU3RyYXRlZ3ksIElucHV0fSBmcm9tIFwiQGFuZ3VsYXIvY29yZVwiO1xyXG5cclxuaW1wb3J0IHtOZ1NlbGVjdE9wdGlvbn0gZnJvbSBcIi4vb3B0aW9uLmludGVyZmFjZVwiO1xyXG5cclxuLyoqXHJcbiAqIENvbXBvbmVudCB1c2VkIGZvciBvcHRpb25zIGluIHNlbGVjdCBjb21wb25lbnRcclxuICovXHJcbkBDb21wb25lbnQoXHJcbntcclxuICAgIHNlbGVjdG9yOiAnbmctc2VsZWN0IG9wdGlvbicsXHJcbiAgICB0ZW1wbGF0ZTogJycsXHJcbiAgICBjaGFuZ2VEZXRlY3Rpb246IENoYW5nZURldGVjdGlvblN0cmF0ZWd5Lk9uUHVzaFxyXG59KVxyXG5leHBvcnQgY2xhc3MgT3B0aW9uQ29tcG9uZW50PFRWYWx1ZT4gaW1wbGVtZW50cyBOZ1NlbGVjdE9wdGlvbjxUVmFsdWU+XHJcbntcclxuICAgIC8vIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyBwdWJsaWMgcHJvcGVydGllcyAtIHRlbXBsYXRlIGJpbmRpbmdzICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyNcclxuXHJcbiAgICAvKipcclxuICAgICAqIEluZGljYXRpb24gd2hldGhlciBpcyBpdGVtIGFjdGl2ZVxyXG4gICAgICovXHJcbiAgICBwdWJsaWMgYWN0aXZlOiBib29sZWFuID0gZmFsc2U7XHJcblxyXG4gICAgLyoqXHJcbiAgICAgKiBJbmRpY2F0aW9uIHdoZXRoZXIgdGhpcyBvcHRpb24gaXMgc2VsZWN0ZWRcclxuICAgICAqL1xyXG4gICAgcHVibGljIHNlbGVjdGVkOiBib29sZWFuID0gZmFsc2U7XHJcblxyXG4gICAgLy8jIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIHB1YmxpYyBwcm9wZXJ0aWVzIC0gaW5wdXRzICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyNcclxuXHJcbiAgICAvKipcclxuICAgICAqIFZhbHVlIHRoYXQgd2lsbCBiZSB1c2VkIGlmIHRoaXMgb3B0aW9uIHdpbGwgYmUgc2VsZWN0ZWRcclxuICAgICAqL1xyXG4gICAgQElucHV0KClcclxuICAgIHB1YmxpYyB2YWx1ZTogVFZhbHVlO1xyXG5cclxuICAgIC8qKlxyXG4gICAgICogVGV4dCB0aGF0IGlzIGRpc3BsYXllZCBpZiB0aGlzIHZhbHVlIGlzIHNlbGVjdGVkXHJcbiAgICAgKi9cclxuICAgIEBJbnB1dCgpXHJcbiAgICBwdWJsaWMgdGV4dDogc3RyaW5nO1xyXG4gICAgXHJcbiAgICAvLyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgcHVibGljIHByb3BlcnRpZXMgIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjI1xyXG5cclxuICAgIC8qKlxyXG4gICAgICogSWYgc3BlY2lmaWVkIHRoaXMgb3B0aW9uIHdpbGwgYmUgZGlzcGxheWVkIGluIGdyb3VwXHJcbiAgICAgKi9cclxuICAgIHB1YmxpYyBncm91cDogc3RyaW5nID0gbnVsbDtcclxufSJdfQ==
