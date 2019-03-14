@@ -1,5 +1,3 @@
-/**
- * Generated bundle index. Do not edit.
- */
-export * from './index';
-export { OptGroupComponent as ɵb, OptionComponent as ɵa } from './components/option';
+export { NgSelectOptGroup, NgSelectOption, OptGroupComponent, OptionComponent } from './components/option';
+export { NgSelectModule } from './modules/ngSelect.module';
+export { NgSelectValuePipe } from './pipes/ngSelectValue.pipe';
