@@ -31,7 +31,7 @@ OptionComponent.decorators = [
                 selector: 'ng-select option',
                 template: '',
                 changeDetection: ChangeDetectionStrategy.OnPush
-            },] },
+            }] }
 ];
 OptionComponent.propDecorators = {
     value: [{ type: Input }],

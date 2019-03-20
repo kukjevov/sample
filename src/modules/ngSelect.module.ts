@@ -4,6 +4,7 @@ import {CommonModule} from '@angular/common';
 import {NgSelectValuePipe} from '../pipes/ngSelectValue.pipe';
 import {OptGroupComponent} from '../components/option/optgroup.component';
 import {OptionComponent} from '../components/option/option.component';
+import {NgCommonComponent} from '../components/ngCommon/ngCommon.component';
 
 /**
  * Module for select and its options
@@ -18,13 +19,15 @@ import {OptionComponent} from '../components/option/option.component';
     [
         OptionComponent,
         OptGroupComponent,
-        NgSelectValuePipe
+        NgSelectValuePipe,
+        NgCommonComponent
     ],
     exports:
     [
         OptionComponent,
         OptGroupComponent,
-        NgSelectValuePipe
+        NgSelectValuePipe,
+        NgCommonComponent
     ]
 })
 export class NgSelectModule

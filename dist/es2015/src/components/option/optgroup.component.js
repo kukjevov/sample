@@ -51,7 +51,7 @@ OptGroupComponent.decorators = [
                 selector: 'ng-select>optgroup',
                 template: '',
                 changeDetection: ChangeDetectionStrategy.OnPush
-            },] },
+            }] }
 ];
 OptGroupComponent.propDecorators = {
     optionsChildren: [{ type: ViewChildren, args: [OptionComponent,] }],

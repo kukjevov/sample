@@ -29,7 +29,7 @@ var NgSelectValuePipe = /** @class */ (function () {
         return null;
     };
     NgSelectValuePipe.decorators = [
-        { type: Pipe, args: [{ name: 'ngSelectValue' },] },
+        { type: Pipe, args: [{ name: 'ngSelectValue' },] }
     ];
     return NgSelectValuePipe;
 }());
